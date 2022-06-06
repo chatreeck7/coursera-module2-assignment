@@ -19,11 +19,12 @@ body{
     border-radius: 50%;
 }
 .all-menu{
+    position: relative;
     width: 100%;
 }
 .menu{
     position: relative;
-    width: 90%;
+    top: 0;
     height: 450px;
     margin-bottom: 25px ;
     border: 2px groove brown ;
@@ -44,7 +45,8 @@ div#sushi-tag{
     right: 0px;
     font-size: 125%;
     padding: 10px 10px 10px 10px;   
-    border: 2px solid rgb(99, 19, 19);
+    border-left: 2px solid rgb(99, 19, 19);
+    border-bottom: 2px solid rgb(99, 19, 19);
 }
 div.polaroid{
     position:relative;
